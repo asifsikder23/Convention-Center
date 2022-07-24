@@ -1,3 +1,9 @@
+#alert-box {
+    right: 15px;
+    width: 278px;
+    top: 105%;
+    height: 12%;
+}
 .album-img{
     transition: 0.5s;
 }
