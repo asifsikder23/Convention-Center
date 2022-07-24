@@ -1,3 +1,10 @@
+.album-img{
+    transition: 0.5s;
+}
+.album-img:hover{
+    transform: rotate(5deg);
+    transition: 0.5s;
+}
 .fa-solid{
     background-color: rgba(82, 67, 194, 0.137);
     width: 20px;
@@ -7,9 +14,11 @@
     text-align: center;
     color: #5243C2;
 }
+.card-body{
+    background-image: url(icons/watermark.svg);
+}
 .card-body:hover{
-    background-color: #3F87F5
-    ;
+    background-color: #3F87F5;
     color: white;
     margin-top: -20px;
     transition: 0.3s;
@@ -17,4 +26,18 @@
 }
 .card-link{
     background-color: white;
+}
+.column{
+    box-shadow: 0px 5px 10px  rgb(170, 193, 236);
+}
+.cards{
+    transition: 0.3s;
+}
+.cards:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+footer {
+    background-color: #000 !important;
+
 }
